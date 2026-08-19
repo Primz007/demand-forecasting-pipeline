@@ -6,6 +6,10 @@ An end-to-end time-series forecasting pipeline that predicts weekly product dema
 
 Businesses in retail, FMCG, and logistics rely on accurate demand forecasts to plan inventory, avoid stockouts/overstocking, and optimize revenue. This project builds a forecasting pipeline on a single product-store series, evaluates it rigorously against a full seasonal cycle, and compares two different modeling approaches to understand their real trade-offs.
 
+## Data
+
+This project uses the [Walmart Recruiting - Store Sales Forecasting](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting) dataset from Kaggle. Download `train.csv` and place it in the project directory to run the notebook.
+
 ## Dataset
 
 **Walmart Recruiting - Store Sales Forecasting** (Kaggle) - weekly sales data across 45 stores and 81 departments, Feb 2010 to Oct 2012 (143 weeks), no missing values.
